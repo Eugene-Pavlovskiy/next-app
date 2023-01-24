@@ -24,8 +24,8 @@ const Burgers = ({ burgers}) => {
               <Image 
                 src={`${burger.image}`} 
                 alt={`${burger.name}`} 
-                width={200} 
-                height={200} 
+                width={100} 
+                height={100} 
                 responsive
                 cover
               />
