@@ -127,13 +127,21 @@ header svg {
   color: #ffc600;
 }
 nav {
+  position: fixed;
+  bottom: 8rem;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  text-align: center;
   align-items: flex-end;
+  background-color: hsl(45,95%,57%);
+  border-radius: 4rem;
+  padding: 0.5rem 2.25rem;
+  backdrop-filter: blur(10px);
+  transition: 4s;
 }
 nav a {
   margin-left: 15px;
-  color: #2E2E2E;
+  color: #ffffff;
 }
 footer {
   display: block;
